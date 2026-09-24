@@ -1,0 +1,7 @@
+/* App level specific overrides if needed */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}

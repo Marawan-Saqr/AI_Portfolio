@@ -1,0 +1,62 @@
+:root {
+  /* Color Palette - Deep Dark Obsidian & Charcoal */
+  --bg-primary: #08090d;
+  --bg-secondary: #0d1017;
+  --bg-tertiary: #121622;
+  --bg-card: rgba(18, 22, 34, 0.75);
+  --bg-card-hover: rgba(26, 32, 50, 0.85);
+  --bg-glass: rgba(13, 16, 23, 0.82);
+  --bg-input: rgba(14, 18, 28, 0.9);
+
+  /* Elegant Accent Colors (Tech Cyan & Electric Sky) */
+  --accent-cyan: #06b6d4;
+  --accent-cyan-light: #22d3ee;
+  --accent-sky: #38bdf8;
+  --accent-indigo: #6366f1;
+  --accent-gradient: linear-gradient(135deg, #06b6d4 0%, #38bdf8 50%, #6366f1 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+  --accent-glow: 0 0 30px rgba(6, 182, 212, 0.28);
+  --accent-glow-subtle: 0 0 18px rgba(6, 182, 212, 0.14);
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-light: #cbd5e1;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-card: rgba(255, 255, 255, 0.09);
+  --border-card-hover: rgba(6, 182, 212, 0.4);
+  --border-focus: rgba(56, 189, 248, 0.6);
+
+  /* Status Colors */
+  --status-available: #10b981;
+  --status-available-glow: rgba(16, 185, 129, 0.35);
+
+  /* Typography */
+  --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Spacing & Sizes */
+  --max-width: 1220px;
+  --nav-height: 76px;
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 20px 45px -15px rgba(0, 0, 0, 0.8);
+  --shadow-hover: 0 22px 45px -12px rgba(0, 0, 0, 0.8), 0 0 24px rgba(6, 182, 212, 0.16);
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
